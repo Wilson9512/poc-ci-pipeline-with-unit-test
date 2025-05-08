@@ -1,4 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react'
+import { expect, test } from 'vitest'
 import App from './App'
 
 test('按鈕點擊後出現文字', () => {
